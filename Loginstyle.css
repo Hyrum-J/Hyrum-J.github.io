@@ -1,0 +1,14 @@
+body {
+
+    background-color: darkgray;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.button {
+
+    width: 150px;
+
+    height: 30px;
+}

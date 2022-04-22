@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<Head>
+    <link rel="stylesheet" href="boardsstyle.css">
+    <script src="thesongs.js">
+    </script>
+    <title>
+        Guess that Song
+    </title>
+</Head>
+
+<body>
+    <center>
+        <h1>
+            Welcome to Guess That Song!
+        </h1>
+        <br>
+        The rules are simple. Click the button to listen to a song. It will play the first
+        25 seconds of it, and then it will allow you to input your answer.
+        <br>
+        <br>
+        <br>
+        <button id="buttonOne" class="lgbutton" onclick="playMusic();">
+            Song One (Hint: Country)
+        </button>
+        Song Name?: <input type="text" id="songOne" />
+        <br>
+        <br>
+        <button id="buttonTwo" class="lgbutton" onclick="playMusicOne();">
+            Song Two (Hint: Rap)
+        </button>
+        Song Name?: <input type="text" id="songTwo" />
+        <br>
+        <br>
+        <button id="buttonThree" class="lgbutton" onclick="playMusicTwo();">
+            Song Three (Hint: 2012)
+        </button>
+        Song Name?: <input type="text" id="songThree" />
+        <br>
+        <br>
+        <button id="buttonFour" class="lgbutton" onclick="playMusicThree();">
+            Song Four (Hint: 1970s)
+        </button>
+        Song Name?: <input type="text" id="songFour" />
+        <br>
+        <br>
+        <button id="buttonFive" class="lgbutton" onclick="playMusicFour();">
+            Song Five (Hint: 2022)
+        </button>
+        Song Name?: <input type="text" id="songFive" />
+        <br>
+        <br>
+        <button id="submit" onclick="checkscore();" class="lgbutton">
+            Submit
+        </button>
+        <br>
+        <br>
+        <div id="score">
+            Score: /5
+        </div>
+    </center>
+
+</body>
+<footer>
+    <center><a href="./boards.html">Objectives</a> || <a href="./login.html">UAT Space Page</a> ||
+        <a href="./index.html">Landing</a> || <a href="./contact.html">Contact</a>
+    </center>
+</footer>
+
+</html>
